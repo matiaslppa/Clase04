@@ -1,0 +1,81 @@
+body{
+    font-family: 'opens sain serif';
+ 
+}
+a, a:visited, a :hover, a:link{
+    color: blueviolet;
+}
+.wrapper{
+    background:#fff url ("images/circle.png") repeat center center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer{
+    height: 50px;
+
+}
+.header{
+    padding: 14px 9px;
+    align-self: flex-start;
+}
+.header a,
+.header a:hover,
+.header a:visited{
+    color: blue;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.main .board{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: blue;
+    width: 100€;
+    height: 300px;
+
+}
+.main .users{
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.main .board .column .spot{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px ;
+    border-radius: 4px;
+}
+.main .board .column{
+    padding: 5px;
+    background-color: #3987a7;
+}
+.main .board .column:hover{
+    background-color: #80ccff;
+}
+.main .users .spot.yellow{
+    background-color: yellow;
+}
+.main .ribbon{
+    width: 50%;
+
+}
